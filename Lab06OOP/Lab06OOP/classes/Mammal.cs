@@ -17,7 +17,7 @@ namespace Lab06_OOP
 
         public int HasYoung()
         {
-            return 0;
+            return 3;
         }
     }
 
