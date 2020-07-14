@@ -13,9 +13,9 @@ namespace Lab06_OOP.classes
       /// <returns>string</returns>
         public string Habitat { get; set; }
         /// <summary>
-      /// below is a method that returns a string when run
-      /// </summary>
-      /// <returns>string</returns>
+        /// below is a method that returns a string when run
+        /// </summary>
+        /// <returns>string with value of "Rattle"</returns>
         public string Rattle()
         {
             string RattleString = "Rattle";

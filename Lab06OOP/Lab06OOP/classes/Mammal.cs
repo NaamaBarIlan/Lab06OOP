@@ -13,7 +13,7 @@ namespace Lab06_OOP
         /// <summary>
         /// below is a method that returns a string when run
         /// </summary>
-        /// <returns>string</returns>
+        /// <returns>string with value of "Produce Milk"</returns>
         public string ProduceMilk()
         {
             string ProduceMilkString = "Produce Milk";
@@ -23,7 +23,7 @@ namespace Lab06_OOP
         /// <summary>
         /// below is a method that returns a integer when run
         /// </summary>
-        /// <returns>int</returns>
+        /// <returns>int with value of 3</returns>
         public int HasYoung()
         {
             return 3;

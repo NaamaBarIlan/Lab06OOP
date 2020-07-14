@@ -15,7 +15,7 @@ namespace Lab06_OOP
         /// <summary>
         /// below is a method that returns a string when GetFed is run
         /// </summary>
-        /// <returns>string</returns>
+        /// <returns>string with value "time for lunch"</returns>
         public string GetFed()
         {
             string FeedString = "Time for Lunch";
@@ -25,7 +25,7 @@ namespace Lab06_OOP
         /// <summary>
         /// below is a method that returns a string when GetSleep is run
         /// </summary>
-        /// <returns>string</returns>
+        /// <returns>string with value of "time for sleep"</returns>
         public string GetSleep()
         {
             string SleepString = "Time for Sleep";

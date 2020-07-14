@@ -14,7 +14,7 @@ namespace Lab06_OOP.classes
         /// <summary>
         /// below is a method that returns an integer when run
         /// </summary>
-        /// <returns>integer</returns>
+        /// <returns>integer with value of 2</returns>
         public int GrowTail()
         {
             return 2;
@@ -23,7 +23,7 @@ namespace Lab06_OOP.classes
         /// <summary>
         /// below is a method that returns a integer when run
         /// </summary>
-        /// <returns>integer</returns>
+        /// <returns>integer with value of 10</returns>
         public int ExtendTongue()
         {
             return 10;

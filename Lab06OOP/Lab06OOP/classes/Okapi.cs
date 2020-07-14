@@ -13,7 +13,7 @@ namespace Lab06_OOP.classes
         /// <summary>
         /// below is a method that returns a string when run
         /// </summary>
-        /// <returns>string</returns>
+        /// <returns>string with value of "Run"</returns>
 
         public string Run()
         {
@@ -24,7 +24,7 @@ namespace Lab06_OOP.classes
         /// <summary>
         /// below is a method that returns a string when run
         /// </summary>
-        /// <returns>string</returns>
+        /// <returns>string with value of "NAAAW PET THE CUTE OKAPI!!!"</returns>
         public string Pet()
         {
             string PetString = "NAAAW PET THE CUTE OKAPI!!!";

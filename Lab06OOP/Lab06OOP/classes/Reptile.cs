@@ -15,7 +15,7 @@ namespace Lab06_OOP
         /// <summary>
         /// below is a method that returns a integer when run
         /// </summary>
-        /// <returns>integer</returns>
+        /// <returns>integer with value of 5</returns>
         public int LayEgg()
         {
             return 5;
@@ -24,7 +24,7 @@ namespace Lab06_OOP
         /// <summary>
         /// below is a method that returns a string when run
         /// </summary>
-        /// <returns>string</returns>
+        /// <returns>string with value of "It shed it's skin"</returns>
         public string Shed()
         {
             string ShedString = "It shed it's skin";

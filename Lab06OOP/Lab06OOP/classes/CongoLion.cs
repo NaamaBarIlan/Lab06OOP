@@ -14,7 +14,7 @@ namespace Lab06_OOP.classes
         /// <summary>
         /// below is a method that returns a string when run
         /// </summary>
-        /// <returns>string</returns>
+        /// <returns>string with value of "Roar"</returns>
         public string Roar()
         {
             string RoarString = "Roar";
@@ -23,7 +23,7 @@ namespace Lab06_OOP.classes
         /// <summary>
         /// below is a method that returns a string when run
         /// </summary>
-        /// <returns>string</returns>
+        /// <returns>string with value of "Roar"</returns>
 
         public string Hunt()
         {
