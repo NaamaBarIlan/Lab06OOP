@@ -5,7 +5,9 @@ using Lab06_OOP.classes;
 namespace Lab06OOPTest
 {
     public class UnitTest1
-    {
+    {/// <summary>
+    /// below is a method that tests the inheritance of this class from its base classes
+    /// </summary>
         [Fact]
         public void OkapiMakesMilkTest()
         {
@@ -17,7 +19,9 @@ namespace Lab06OOPTest
             //Assert
             Assert.Equal(message, result);
         }
-
+        /// <summary>
+        /// below is a method that tests the inheritance of this class from its base classes
+        /// </summary>
         [Fact]
         public void OkapiSleepTest()
         {
@@ -29,6 +33,9 @@ namespace Lab06OOPTest
             //Assert
             Assert.Equal(message, result);
         }
+        /// <summary>
+        /// below is a method that tests the inheritance of this class from its base classes
+        /// </summary>
         [Fact]
         public void OkapiRunTest()
         {
@@ -40,7 +47,9 @@ namespace Lab06OOPTest
             //Assert
             Assert.Equal(message, result);
         }
-
+        /// <summary>
+        /// below is a method that tests the inheritance of this class from its base classes
+        /// </summary>
         [Fact]
         public void OkapiPetTest()
         {
@@ -52,7 +61,9 @@ namespace Lab06OOPTest
             //Assert
             Assert.Equal(message, result);
         }
-
+        /// <summary>
+        /// below is a method that tests the inheritance of this class from its base classes
+        /// </summary>
 
         [Fact]
         public void CongoLionAgeTest()
@@ -65,7 +76,9 @@ namespace Lab06OOPTest
             //Assert
             Assert.Equal(message, result);
         }
-
+        /// <summary>
+        /// below is a method that tests the inheritance of this class from its base classes
+        /// </summary>
         [Fact]
         public void CongoLionMilkTest()
         {
@@ -77,7 +90,9 @@ namespace Lab06OOPTest
             //Assert
             Assert.Equal(message, result);
         }
-
+        /// <summary>
+        /// below is a method that tests the inheritance of this class from its base classes
+        /// </summary>
         [Fact]
         public void CongoLionRoarTest()
         {
@@ -89,7 +104,9 @@ namespace Lab06OOPTest
             //Assert
             Assert.Equal(message, result);
         }
-
+        /// <summary>
+        /// below is a method that tests the inheritance of this class from its base classes
+        /// </summary>
         [Fact]
         public void CongoLionHuntTest()
         {
@@ -102,6 +119,9 @@ namespace Lab06OOPTest
             Assert.Equal(message, result);
         }
         [Fact]
+        /// <summary>
+        /// below is a method that tests the inheritance of this class from its base classes
+        /// </summary>
         public void MarinaRamFeedTest()
         {
             //Arrange
@@ -112,7 +132,9 @@ namespace Lab06OOPTest
             //Assert
             Assert.Equal(message, result);
         }
-
+        /// <summary>
+        /// below is a method that tests the inheritance of this class from its base classes
+        /// </summary>
         [Fact]
         public void MarinaRamMilkTest()
         {
@@ -125,6 +147,9 @@ namespace Lab06OOPTest
             Assert.Equal(message, result);
         }
         [Fact]
+        /// <summary>
+        /// below is a method that tests the inheritance of this class from its base classes
+        /// </summary>
         public void MarinaRamClimbTest()
         {
             //Arrange
@@ -135,7 +160,9 @@ namespace Lab06OOPTest
             //Assert
             Assert.Equal(message, result);
         }
-
+        /// <summary>
+        /// below is a method that tests the inheritance of this class from its base classes
+        /// </summary>
         [Fact]
         public void MarinaRamRamTest()
         {
@@ -147,7 +174,9 @@ namespace Lab06OOPTest
             //Assert
             Assert.Equal(message, result);
         }
-
+        /// <summary>
+        /// below is a method that tests the inheritance of this class from its base classes
+        /// </summary>
 
         [Fact]
         public void MonitorLizardFeedTest()
@@ -160,7 +189,9 @@ namespace Lab06OOPTest
             //Assert
             Assert.Equal(message, result);
         }
-
+        /// <summary>
+        /// below is a method that tests the inheritance of this class from its base classes
+        /// </summary>
         [Fact]
         public void MonitorLizardShedTest()
         {
@@ -172,7 +203,9 @@ namespace Lab06OOPTest
             //Assert
             Assert.Equal(message, result);
         }
-
+        /// <summary>
+        /// below is a method that tests the inheritance of this class from its base classes
+        /// </summary>
         [Fact]
         public void MonitorLizardExtendTongueTest()
         {
@@ -184,7 +217,9 @@ namespace Lab06OOPTest
             //Assert
             Assert.Equal(message, result);
         }
-
+        /// <summary>
+        /// below is a method that tests the inheritance of this class from its base classes
+        /// </summary>
         [Fact]
         public void MonitorLizardGrowTailTest()
         {
@@ -196,7 +231,9 @@ namespace Lab06OOPTest
             //Assert
             Assert.Equal(message, result);
         }
-
+        /// <summary>
+        /// below is a method that tests the inheritance of this class from its base classes
+        /// </summary>
 
         [Fact]
         public void RattlesnakeSleepTest()
@@ -209,7 +246,9 @@ namespace Lab06OOPTest
             //Assert
             Assert.Equal(message, result);
         }
-
+        /// <summary>
+        /// below is a method that tests the inheritance of this class from its base classes
+        /// </summary>
         [Fact]
         public void RattlesnakeEggTest()
         {
@@ -221,7 +260,9 @@ namespace Lab06OOPTest
             //Assert
             Assert.Equal(output, result);
         }
-
+        /// <summary>
+        /// below is a method that tests the inheritance of this class from its base classes
+        /// </summary>
         [Fact]
         public void RattlesnakeBiteTest()
         {
@@ -233,6 +274,9 @@ namespace Lab06OOPTest
             //Assert
             Assert.Equal(message, result);
         }
+        /// <summary>
+        /// below is a method that tests the inheritance of this class from its base classes
+        /// </summary>
         [Fact]
         public void RattlesnakeRattleTest()
         {
