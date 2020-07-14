@@ -21,7 +21,7 @@
 ##### Select the Program.cs document
 
 ### Application WhiteBoard
-![App Image 1](./assets/Lab06Whiteboard.png)
+![App Image 1](./assets/Lab06UML.png)
 
 ### Technical Definitions
 ##### OOP Principles: Object Oriented Programming Principles, these are the fundamentals that allow us to differentiate objects with similar behavior.
