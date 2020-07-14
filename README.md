@@ -15,8 +15,8 @@
 
 ##### Select File, then Open, then Project/Solution
 ##### Find the location of the cloned Repository
-##### Select Robert-Lab2 folder
-##### Select the next Robert-Lab3 folder
+##### Select Lab06OOP folder
+##### Select the next Lab06OOP folder
 ##### Select the Program.cs document
 
 ### Application WhiteBoard
