@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -12,7 +12,10 @@ namespace Lab06_OOP.classes
       /// </summary>
       /// <returns>string</returns>
         public string Habitat { get; set; }
-        
+        /// <summary>
+      /// below is a method that returns a string when run
+      /// </summary>
+      /// <returns>string</returns>
         public string Rattle()
         {
             string RattleString = "Rattle";

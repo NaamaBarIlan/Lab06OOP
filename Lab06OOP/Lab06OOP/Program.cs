@@ -1,4 +1,4 @@
-﻿using Lab06_OOP.classes;
+using Lab06_OOP.classes;
 using System;
 
 namespace Lab06_OOP
