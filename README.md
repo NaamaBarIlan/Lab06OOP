@@ -1,6 +1,6 @@
 # OOP Application README
 ##### Lab06-OOP Part 1 of 2
-##### Author: Robert Carter, Na'ama Bar-Ilan
+##### Authors: Robert Carter, Na'ama Bar-Ilan
 
 ### Description
 
@@ -32,4 +32,5 @@
 
 
 #### Change Log
+###### 1.2: Updated UML picture and code comments - 14 July 2020
 ###### 1.1: App first created - 13 July 2020
