@@ -4,7 +4,14 @@ using System.Text;
 
 namespace Lab06_OOP.classes
 {
-    class Rattlesnake
+    public class Rattlesnake : Snake
     {
+        public string Habitat { get; set; }
+        
+        public string Rattle()
+        {
+            string RattleString = "Rattle";
+            return RattleString;
+        }
     }
 }
