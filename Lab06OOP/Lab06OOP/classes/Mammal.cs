@@ -4,7 +4,23 @@ using System.Text;
 
 namespace Lab06_OOP
 {
-    class Mammal
+     public abstract class Mammal : Animal
     {
+        public bool BloodType { get; set; }
+        public string HairType { get; set; }
+
+        public string ProduceMilk()
+        {
+            string ProduceMilkString = "Produce Milk";
+            return ProduceMilkString;
+        }
+
+        public int HasYoung()
+        {
+            return 0;
+        }
     }
+
+    
+
 }

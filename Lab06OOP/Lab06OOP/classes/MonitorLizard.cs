@@ -4,7 +4,19 @@ using System.Text;
 
 namespace Lab06_OOP.classes
 {
-    class MonitorLizard
+    public class MonitorLizard : Reptile
     {
+        public bool WaterWalk { get; set; }
+        public int TongueLength { get; set; }
+
+        public int GrowTail()
+        {
+            return 2;
+        }
+
+        public int ExtendTongue()
+        {
+            return 10;
+        }
     }
 }
