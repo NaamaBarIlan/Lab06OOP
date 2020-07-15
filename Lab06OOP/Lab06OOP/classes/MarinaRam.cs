@@ -10,7 +10,8 @@ namespace Lab06_OOP.classes
     {
         public int HornLength { get; set; }
         public int LifeAltitude { get; set; }
-
+        //below is an override property HairType that is set to the string "short"
+        public override string HairType { get; set; } = "short";
         /// <summary>
         /// below is a method that returns a string when run
         /// </summary>

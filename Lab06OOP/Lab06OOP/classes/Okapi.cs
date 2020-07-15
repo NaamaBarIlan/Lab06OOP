@@ -10,6 +10,8 @@ namespace Lab06_OOP.classes
     {
         public string LegsColor { get; set; }
         public bool HasKids { get; set; }
+        //below is an override property HairType that is set to the string "coarse"
+        public override string HairType { get; set; } = "coarse";
         /// <summary>
         /// below is a method that returns a string when run
         /// </summary>
