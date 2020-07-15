@@ -8,14 +8,16 @@ namespace Lab06_OOP
 /// </summary>
     public abstract class Snake : Reptile
     {
-        public bool Venemous { get; set; }
+        public virtual bool Venemous { get; set; }
         public int Length { get; set; }
+        //below is an override property ScalesType that is set to the string "slimy"
+        public override string ScalesType { get; set; } = "slimy";
 
         /// <summary>
-        /// below is a method that returns a integer when run
+        /// below is a private method that returns a integer when run. It is only available to itself.
         /// </summary>
         /// <returns>integer with value of 5</returns>
-        public int Slither()
+        private int Slither()
         {
             return 5;
         }
