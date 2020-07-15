@@ -11,10 +11,15 @@ namespace Lab06_OOP.classes
         public int PrideSize { get; set; }
 
         public bool HasMane { get; set; }
+        //below is an override property HairType that is set to the string "shaggy"
+        public override string HairType { get; set; } = "shaggy";
+        //below is an override property Size that is set to the integer 500.9
+        public override double Size => 500.9;
+
         /// <summary>
         /// below is a method that returns a string when run
         /// </summary>
-        /// <returns>string</returns>
+        /// <returns>string with value of "Roar"</returns>
         public string Roar()
         {
             string RoarString = "Roar";
@@ -23,7 +28,7 @@ namespace Lab06_OOP.classes
         /// <summary>
         /// below is a method that returns a string when run
         /// </summary>
-        /// <returns>string</returns>
+        /// <returns>string with value of "Roar"</returns>
 
         public string Hunt()
         {

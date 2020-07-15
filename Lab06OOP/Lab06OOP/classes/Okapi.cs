@@ -10,10 +10,12 @@ namespace Lab06_OOP.classes
     {
         public string LegsColor { get; set; }
         public bool HasKids { get; set; }
+        //below is an override property HairType that is set to the string "coarse"
+        public override string HairType { get; set; } = "coarse";
         /// <summary>
         /// below is a method that returns a string when run
         /// </summary>
-        /// <returns>string</returns>
+        /// <returns>string with value of "Run"</returns>
 
         public string Run()
         {
@@ -24,7 +26,7 @@ namespace Lab06_OOP.classes
         /// <summary>
         /// below is a method that returns a string when run
         /// </summary>
-        /// <returns>string</returns>
+        /// <returns>string with value of "NAAAW PET THE CUTE OKAPI!!!"</returns>
         public string Pet()
         {
             string PetString = "NAAAW PET THE CUTE OKAPI!!!";

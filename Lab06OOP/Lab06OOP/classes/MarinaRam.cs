@@ -10,11 +10,12 @@ namespace Lab06_OOP.classes
     {
         public int HornLength { get; set; }
         public int LifeAltitude { get; set; }
-
+        //below is an override property HairType that is set to the string "short"
+        public override string HairType { get; set; } = "short";
         /// <summary>
         /// below is a method that returns a string when run
         /// </summary>
-        /// <returns>string</returns>
+        /// <returns>string with value of "Ram"</returns>
         public string Ram()
         {
             string RamString = "Ram";
@@ -23,7 +24,7 @@ namespace Lab06_OOP.classes
         /// <summary>
         /// below is a method that returns an integer when run
         /// </summary>
-        /// <returns>integer</returns>
+        /// <returns>integer with value of 12000</returns>
         public int Climb()
         {
             return 12000;

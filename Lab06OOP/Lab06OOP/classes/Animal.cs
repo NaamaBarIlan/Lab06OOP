@@ -10,27 +10,20 @@ namespace Lab06_OOP
     {
         public int Age { get; set; }
         public string Name { get; set; }
-        public double Size { get; set; }
+        public virtual double Size { get; set; }
 
         /// <summary>
-        /// below is a method that returns a string when GetFed is run
+        /// below is an abstract method that returns a string when GetFed is run
         /// </summary>
-        /// <returns>string</returns>
-        public string GetFed()
-        {
-            string FeedString = "Time for Lunch";
-            return FeedString;
-        }
+        /// <returns>string with value determined by derived classes</returns>
+        public abstract string GetFed();
+
 
         /// <summary>
         /// below is a method that returns a string when GetSleep is run
         /// </summary>
-        /// <returns>string</returns>
-        public string GetSleep()
-        {
-            string SleepString = "Time for Sleep";
-            return SleepString;
-        }
+        /// <returns>string with value determined by derived classes</returns>
+        public abstract string GetSleep();       
     }
 
    
