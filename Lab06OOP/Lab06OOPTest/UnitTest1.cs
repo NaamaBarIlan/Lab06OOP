@@ -240,7 +240,7 @@ namespace Lab06OOPTest
         public void RattlesnakeInheritsOverrideMethodTest()
         {
             //Arrange
-            Rattlesnake snake = new Rattlesnake();
+            EDiamondbackRattlesnake snake = new EDiamondbackRattlesnake();
             string message = "Too cold to sleep";
             //Act
             string result = snake.GetSleep();
@@ -254,7 +254,7 @@ namespace Lab06OOPTest
         public void RattlesnakeEggTest()
         {
             //Arrange
-            Rattlesnake snake = new Rattlesnake();
+            EDiamondbackRattlesnake snake = new EDiamondbackRattlesnake();
             int output = 5;
             //Act
             int result = snake.LayEgg();
@@ -268,7 +268,7 @@ namespace Lab06OOPTest
         public void RattlesnakeBiteTest()
         {
             //Arrange
-            Rattlesnake snake = new Rattlesnake();
+            EDiamondbackRattlesnake snake = new EDiamondbackRattlesnake();
             string message = "Ow";
             //Act
             string result = snake.Bite();
@@ -282,7 +282,7 @@ namespace Lab06OOPTest
         public void RattlesnakeRattleTest()
         {
             //Arrange
-            Rattlesnake snake = new Rattlesnake();
+            EDiamondbackRattlesnake snake = new EDiamondbackRattlesnake();
             string message = "Rattle";
             //Act
             string result = snake.Rattle();
