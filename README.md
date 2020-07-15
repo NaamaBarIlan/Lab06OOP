@@ -29,8 +29,12 @@
 ###### Examples of Inheritance in this project: Rattlesnake is a derived class that inherits both properties and methods from its base classes: Snake, Reptile, and Animal. One such example is the LayEgg method, which is a Reptile method that can be called by Rattlesnake.
 ##### Abstraction: The grouping of data that is used as a template for derived classes and can be seen without instantiating it. 
 ###### Examples of Abstraction in this project: The abstract classes in this project were Animal, Mammal, Reptile, and Snake. Taking Animal as an example, as an abstract class it's properties and methods were inherited by all of its derived classes. You can't instantiate and Animal itself, but you can instantiate it's derived classes using Animal properties and methods.
+##### Polymorphism: That which allows different objects to have unique values when it is called in different methods. In essence, you can change the contents of methods found in derived classes.
+###### Examples of Polymorphism in this project: The GetFed() and GetSleep() methods within the base class Animal utilized Polymorphism to change their string values so that the derived classes Mammal and Reptile had different values returned for each method. Also, the HairType() method from Mammal and the ScalesType() method from Reptile utilized Polymorphism to create individual values for all of their specific derived classes.
+##### Encapsulation: 
 
 
 #### Change Log
+###### 1.3: Updated app with vitrual and abstract methods and properties utilizing override - 14 July 2020
 ###### 1.2: Updated UML picture and code comments - 14 July 2020
 ###### 1.1: App first created - 13 July 2020
