@@ -23,11 +23,11 @@ namespace Lab06OOPTest
         /// below is a method that tests the inheritance of this class from its base classes
         /// </summary>
         [Fact]
-        public void OkapiSleepTest()
+        public void OkapiInheritsOverrideMehtodTest()
         {
             //Arrange
             Okapi okapi = new Okapi();
-            string message = "Time for Sleep";
+            string message = "Aint no rest for the wicked";
             //Act
             string result = okapi.GetSleep();
             //Assert
@@ -66,11 +66,11 @@ namespace Lab06OOPTest
         /// </summary>
 
         [Fact]
-        public void CongoLionAgeTest()
+        public void CongoLionInheritsOverrideMethodFromMammalTest()
         {
             //Arrange
             CongoLion lion = new CongoLion();
-            string message = "Time for Sleep";
+            string message = "Aint no rest for the wicked";
             //Act
             string result = lion.GetSleep();
             //Assert
@@ -126,7 +126,7 @@ namespace Lab06OOPTest
         {
             //Arrange
             MarinaRam ram = new MarinaRam();
-            string message = "Time for Lunch";
+            string message = "Ran out of Food";
             //Act
             string result = ram.GetFed();
             //Assert
@@ -150,7 +150,7 @@ namespace Lab06OOPTest
         /// <summary>
         /// below is a method that tests the inheritance of this class from its base classes
         /// </summary>
-        public void MarinaRamClimbTest()
+        public void MarinaRamInheritsOverrideMethodTest()
         {
             //Arrange
             MarinaRam ram = new MarinaRam();
@@ -179,11 +179,11 @@ namespace Lab06OOPTest
         /// </summary>
 
         [Fact]
-        public void MonitorLizardFeedTest()
+        public void LizardInheritsOverrideMethodFromReptileTest()
         {
             //Arrange
             MonitorLizard lizard = new MonitorLizard();
-            string message = "Time for Lunch";
+            string message = "Found a Rabbit";
             //Act
             string result = lizard.GetFed();
             //Assert
@@ -192,17 +192,18 @@ namespace Lab06OOPTest
         /// <summary>
         /// below is a method that tests the inheritance of this class from its base classes
         /// </summary>
-        [Fact]
-        public void MonitorLizardShedTest()
-        {
+       // [Fact]
+        //public void MonitorLizardShedTest()
+       // {
             //Arrange
-            MonitorLizard lizard = new MonitorLizard();
-            string message = "It shed it's skin";
+           // MonitorLizard lizard = new MonitorLizard();
+           // string message = "It shed it's skin";
+ 
             //Act
-            string result = lizard.Shed();
+           // string result = lizard.Shed();
             //Assert
-            Assert.Equal(message, result);
-        }
+          //  Assert.True(message, result);
+       // }
         /// <summary>
         /// below is a method that tests the inheritance of this class from its base classes
         /// </summary>
@@ -236,11 +237,11 @@ namespace Lab06OOPTest
         /// </summary>
 
         [Fact]
-        public void RattlesnakeSleepTest()
+        public void RattlesnakeInheritsOverrideMethodTest()
         {
             //Arrange
             Rattlesnake snake = new Rattlesnake();
-            string message = "Time for Sleep";
+            string message = "Too cold to sleep";
             //Act
             string result = snake.GetSleep();
             //Assert
@@ -288,5 +289,6 @@ namespace Lab06OOPTest
             //Assert
             Assert.Equal(message, result);
         }
+
     }
 }
