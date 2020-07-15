@@ -36,7 +36,7 @@
 ##### Polymorphism: That which allows different objects to have unique values when it is called in different methods. In essence, you can change the contents of methods found in derived classes.
 ###### Examples of Polymorphism in this project: The GetFed() and GetSleep() methods within the base class Animal utilized Polymorphism to change their string values so that the derived classes Mammal and Reptile had different values returned for each method. Also, the HairType() method from Mammal and the ScalesType() method from Reptile utilized Polymorphism to create individual values for all of their specific derived classes.
 ##### Encapsulation: This concept enables an object to conceal data, such as a method, from other objects. It allows a class to keep its data without sharing it to derived classes, or only specific derived classes, for example. 
-###### Examples of Encapsulation in this project: 
+###### Examples of Encapsulation in this project: The method Slither() found in the Snake abstract class was protected and was unable to be utilized by its derived class E. Diamondback Rattlesnake.
 
 
 #### Change Log
