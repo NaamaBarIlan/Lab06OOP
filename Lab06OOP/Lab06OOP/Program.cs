@@ -59,7 +59,7 @@ namespace Lab06_OOP
         /// </summary>
         static void RattlesnakeTest()
         {
-            Rattlesnake snake = new Rattlesnake();
+            EDiamondbackRattlesnake snake = new EDiamondbackRattlesnake();
             int snakeAge = snake.Age;
             Console.WriteLine(snakeAge);
         }
