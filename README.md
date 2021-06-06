@@ -1,12 +1,20 @@
 # OOP Application README
-##### Lab06-OOP and Lab07-OOP
+
+Lab06-OOP and Lab07-OOP
+
+---
+
 ##### Authors: Robert Carter, Na'ama Bar-Ilan
+
+---
 
 ### Description
 
-##### This is a C# console application that will utilize UML to plan an application that will incorporate both Inheritance and Abstraction. There are several abstract and concrete objects that are tied together utilizing inheritance, with values being shared due to abstraction. 
-##### We first created the base class Animal, then created several subsidiary levels of classes that have an inheritance relationship (derived classes) with those above it. For example, Mammals and Reptiles are two created classes that inherit from the base class Animals, while several animal classes inherit from Mammals, Reptile, and Animal. We tested these relationships by creating several basic methods found within each class and testing them within the concrete animal classes. They were all able to run inherited methods from Animal, Mammal, and Reptile.
-##### We further augmented select properties and methods utilizing both Polymorphism and Encapsulation to show off the full suite of OOP principles. For example, the Animal class's two methods were changed to abstract methods which were then utilizied by its derived classes Mammal and Reptile via override to create their own unique returns. We also used virtual classes to modify return values within specific classes, but not others who used the same method. Finally, we created a protected method who's usage was not allowed outside of the specific class.
+This is a C# console application that will utilize UML to plan an application that will incorporate both Inheritance and Abstraction. There are several abstract and concrete objects that are tied together utilizing inheritance, with values being shared due to abstraction. 
+
+We first created the base class Animal, then created several subsidiary levels of classes that have an inheritance relationship (derived classes) with those above it. For example, Mammals and Reptiles are two created classes that inherit from the base class Animals, while several animal classes inherit from Mammals, Reptile, and Animal. We tested these relationships by creating several basic methods found within each class and testing them within the concrete animal classes. They were all able to run inherited methods from Animal, Mammal, and Reptile.
+
+We further augmented select properties and methods utilizing both Polymorphism and Encapsulation to show off the full suite of OOP principles. For example, the Animal class's two methods were changed to abstract methods which were then utilizied by its derived classes Mammal and Reptile via override to create their own unique returns. We also used virtual classes to modify return values within specific classes, but not others who used the same method. Finally, we created a protected method who's usage was not allowed outside of the specific class.
 
 #### Getting started
 
